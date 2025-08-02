@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Encoded Nuclear Pasta",
+    "Ingredients": [
+        {
+            "Item": "Desc_QuantumEnergy",
+            "Amount": 25000
+        },
+        {
+            "Item": "Desc_PressureConversionCube",
+            "Amount": 1
+        },
+        {
+            "Item": "Desc_CopperDust",
+            "Amount": 100
+        },
+        {
+            "Item": "Desc_DarkMatter",
+            "Amount": 6
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_SpaceElevatorPart_9",
+            "Amount": 1
+        },
+        {
+            "Item": "Desc_DarkEnergy",
+            "Amount": 25000
+        }
+    ],
+    "VariablePowerConsumptionFactor": 2000,
+    "ManufacturingDuration": 60,
+    "ProducedIn": [
+        "Build_QuantumEncoder"
+    ]
+}

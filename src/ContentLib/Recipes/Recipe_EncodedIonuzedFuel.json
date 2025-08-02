@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Encoded Ionized Fuel",
+    "Ingredients": [
+        {
+            "Item": "Desc_RocketFuel",
+            "Amount": 50000
+        },
+        {
+            "Item": "Desc_TimeCrystal",
+            "Amount": 1
+        },
+        {
+            "Item": "Desc_DarkMatter",
+            "Amount": 5
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_IonizedFuel",
+            "Amount": 50000
+        },
+        {
+            "Item": "Desc_CompactedCoal",
+            "Amount": 6
+        }
+    ],
+    "VariablePowerConsumptionFactor": 2000,
+    "ManufacturingDuration": 15,
+    "ProducedIn": [
+        "Build_QuantumEncoder"
+    ]
+}

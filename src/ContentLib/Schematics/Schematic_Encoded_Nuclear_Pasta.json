@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Schematic.json",
+  "Name": "Alternate: Encoded Nuclear Pasta",
+  "Type": "Alternate",
+  "Cost": [],
+  "DependsOn": ["Schematic_9-2"],
+  "Recipes": [ "Recipe_Encoded_Nuclear_Pasta" ]
+}

@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Converted SAM",
+    "Ingredients": [
+        {
+            "Item": "Desc_SAM",
+            "Amount": 32
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_SAMIngot",
+            "Amount": 12
+        },
+        {
+            "Item": "Desc_DarkEnergy",
+            "Amount": 8000
+        }
+    ],
+    "VariablePowerConsumptionConstant": 100,
+    "VariablePowerConsumptionFactor": 300,
+    "ManufacturingDuration": 32,
+    "ProducedIn": [
+        "Build_Converter"
+    ]
+}

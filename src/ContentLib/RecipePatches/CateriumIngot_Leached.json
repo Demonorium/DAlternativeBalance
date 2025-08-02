@@ -1,0 +1,20 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update9_Ingots/Recipe_Alternate_CateriumIngot_Leached.Recipe_Alternate_CateriumIngot_Leached_C
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+  "Ingredients": [
+    {
+      "Item": "Desc_OreGold",
+      "Amount": 9
+    },
+    {
+        "Item": "Desc_NitricAcid",
+        "Amount": 1125
+    }
+  ],
+  "Products": [
+        {
+        "Item": "Desc_GoldIngot",
+        "Amount": 6
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Nitric Acid from Leached Caterium",
+    "Ingredients": [
+        {
+            "Item": "Desc_OreGold",
+            "Amount": 9
+        },
+        {
+            "Item": "Desc_NitrogenGas",
+            "Amount": 4500
+        },
+        {
+            "Item": "Desc_SulfuricAcid",
+            "Amount": 750
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_GoldIngot",
+            "Amount": 9
+        },
+        {
+            "Item": "Desc_NitricAcid",
+            "Amount": 1125
+        }
+    ],
+    "ManufacturingDuration": 20,
+    "ProducedIn": [
+        "Build_Blender"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Schematic.json",
+  "Name": "Alternate: Converted SAM",
+  "Type": "Alternate",
+  "Cost": [],
+  "DependsOn": ["Schematic_9-1"],
+  "Recipes": [ "Recipe_Active_Converted_SAM" ]
+}

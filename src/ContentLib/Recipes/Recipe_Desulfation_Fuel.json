@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Desulfation (Fuel)",
+    "Ingredients": [
+        {
+            "Item": "Desc_Silica",
+            "Amount": 10
+        },
+        {
+            "Item": "Desc_HeavyOilResidue",
+            "Amount": 5000
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_LiquidFuel",
+            "Amount": 10000
+        },
+        {
+            "Item": "Desc_Sulfur",
+            "Amount": 10
+        }
+    ],
+    "ManufacturingDuration": 12,
+    "ProducedIn": [
+        "Build_OilRefinery"
+    ]
+}

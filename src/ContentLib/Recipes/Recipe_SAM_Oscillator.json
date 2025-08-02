@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: SAM Oscillator",
+    "Ingredients": [
+        {
+            "Item": "Desc_SAMIngot",
+            "Amount": 6
+        },
+        {
+            "Item": "Desc_CrystalOscillator",
+            "Amount": 1
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_SAMFluctuator",
+            "Amount": 2
+        }
+    ],
+    "ManufacturingDuration": 6,
+    "ProducedIn": [
+        "Build_AssemblerMk1"
+    ]
+}

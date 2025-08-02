@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Schematic.json",
+  "Name": "Alternate: Controlled SAM",
+  "Type": "Alternate",
+  "Cost": [],
+  "DependsOn": ["Schematic_8-1"],
+  "Recipes": [ "Recipe_Controlled_SAM" ]
+}

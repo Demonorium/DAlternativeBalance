@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Schematic.json",
+  "Name": "Alternate: Desulfation (Petroleum Coke)",
+  "Type": "Alternate",
+  "Cost": [],
+  "DependsOn": ["Schematic_5-2"],
+  "Recipes": [ "Recipe_Desulfation_Coke" ]
+}

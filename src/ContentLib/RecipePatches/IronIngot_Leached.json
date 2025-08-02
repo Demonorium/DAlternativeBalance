@@ -1,0 +1,20 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update9_Ingots/Recipe_Alternate_IronIngot_Leached.Recipe_Alternate_IronIngot_Leached_C
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+  "Ingredients": [
+    {
+      "Item": "Desc_OreIron",
+      "Amount": 5
+    },
+    {
+        "Item": "Desc_NitricAcid",
+        "Amount": 625
+    }
+  ],
+  "Products": [
+        {
+        "Item": "Desc_IronIngot",
+        "Amount": 10
+        }
+    ]
+}

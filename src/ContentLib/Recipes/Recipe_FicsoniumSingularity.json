@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Ficsonium Singularity Cell",
+    "Ingredients": [
+        {
+            "Item": "Desc_SpaceElevatorPart_9",
+            "Amount": 2
+        },
+        {
+            "Item": "Desc_CrystalOscillator",
+            "Amount": 2
+        },
+        {
+            "Item": "Desc_Ficsonium",
+            "Amount": 2
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_SingularityCell",
+            "Amount": 30
+        }
+    ],
+    "ManufacturingDuration": 60,
+    "ProducedIn": [
+        "Build_ManufacturerMk1"
+    ]
+}

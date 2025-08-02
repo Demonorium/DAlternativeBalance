@@ -1,0 +1,24 @@
+//Game/FactoryGame/Recipes/OilRefinery/Recipe_IonizedFuel.Recipe_IonizedFuel_C
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+  "Ingredients": [
+    {
+      "Item": "Desc_RocketFuel",
+      "Amount": 50000
+    },
+    {
+      "Item": "Desc_CrystalShard",
+      "Amount": 1
+    }
+  ],
+  "Products": [
+    {
+      "Item": "Desc_IonizedFuel",
+      "Amount": 50000
+    },
+    {
+      "Item": "Desc_CompactedCoal",
+      "Amount": 10
+    }
+  ]
+}

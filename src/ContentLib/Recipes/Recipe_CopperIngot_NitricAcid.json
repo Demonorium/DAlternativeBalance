@@ -1,0 +1,32 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Nitric Acid from Leached Copper",
+    "Ingredients": [
+        {
+            "Item": "Desc_OreCopper",
+            "Amount": 9
+        },
+        {
+            "Item": "Desc_NitrogenGas",
+            "Amount": 4500
+        },
+        {
+            "Item": "Desc_SulfuricAcid",
+            "Amount": 750
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_CopperIngot",
+            "Amount": 30
+        },
+        {
+            "Item": "Desc_NitricAcid",
+            "Amount": 1125
+        }
+    ],
+    "ManufacturingDuration": 24,
+    "ProducedIn": [
+        "Build_Blender"
+    ]
+}

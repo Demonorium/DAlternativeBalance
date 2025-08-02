@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Desulfation (Petroleum Coke)",
+    "Ingredients": [
+        {
+            "Item": "Desc_Silica",
+            "Amount": 10
+        },
+        {
+            "Item": "Desc_HeavyOilResidue",
+            "Amount": 5000
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_PetroleumCoke",
+            "Amount": 15
+        },
+        {
+            "Item": "Desc_Sulfur",
+            "Amount": 5
+        }
+    ],
+    "ManufacturingDuration": 12,
+    "ProducedIn": [
+        "Build_OilRefinery"
+    ]
+}
