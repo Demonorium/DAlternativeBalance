@@ -92,6 +92,6 @@ The main purpose of changes is to reduce cost of SAM, to make it more usable. Al
 2. Plutonium rod energy output 150%
 3. Ficsonium rod energy output 300%
 
-The recipe of uranium fuel rods was changed to reduce its cost.
+The recipe of uranium fuel rods was changed to reduce it cost.
 
 ![Alt Nuclear recipes rebalance 1](https://raw.githubusercontent.com/Demonorium/DAlternativeBalance/refs/heads/master/docs/nuclear_1.jpg)
