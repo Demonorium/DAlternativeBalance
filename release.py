@@ -16,13 +16,16 @@ shutil.copytree('src', windows_dir)
 shutil.copytree('src', windows_server_dir)
 shutil.copytree('src', linux_server_dir)
 
-with zipfile.ZipFile(os.path.join('build', MOD_ID), 'w', zipfile.ZIP_DEFLATED) as zipf:
-    for root, dirs, files in os.walk('src'):
+target_file = os.path.join('build', MOD_ID)
+with zipfile.ZipFile(target_file, 'w', zipfile.ZIP_DEFLATED) as zipf:
+    for root, dirs, files in os.walk('build'):
         for file in files:
             file_path = os.path.join(root, file)
-            
-            zipf.write(file_path, os.path.relpath(file_path, 'src'))
+            if file_path == target_file:
+                continue
+
+            zipf.write(file_path, os.path.relpath(file_path, 'build'))
         
         for dir_name in dirs:
             dir_path = os.path.join(root, dir_name)
-            zipf.write(dir_path, os.path.relpath(dir_path, 'src'))
+            zipf.write(dir_path, os.path.relpath(dir_path, 'build'))

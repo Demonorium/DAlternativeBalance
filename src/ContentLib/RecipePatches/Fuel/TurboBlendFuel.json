@@ -1,0 +1,28 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update4/Recipe_Alternate_TurboBlendFuel.Recipe_Alternate_TurboBlendFuel_C
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+  "Ingredients": [
+    {
+      "Item": "Desc_LiquidFuel",
+      "Amount": 2000
+    },
+    {
+      "Item": "Desc_HeavyOilResidue",
+      "Amount": 2000
+    },
+    {
+      "Item": "Desc_Sulfur",
+      "Amount": 5
+    },
+    {
+      "Item": "Desc_PetroleumCoke",
+      "Amount": 4
+    }
+  ],
+  "Products": [
+    {
+      "Item": "Desc_LiquidTurboFuel",
+      "Amount": 6000
+    }
+  ]
+}

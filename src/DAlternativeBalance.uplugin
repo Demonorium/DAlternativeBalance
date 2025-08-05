@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
-	"SemVersion": "1.0.0",
+	"VersionName": "1.1.0",
+	"SemVersion": "1.1.0",
 	"GameVersion": ">=410840",
 	"FriendlyName": "Demonorium Alternative Balance",
 	"Description": "This mod adds alternative recipes for ore proccessing and end-game stages. There also balance changes to vanilla alternatives and energy sources.",
@@ -25,7 +25,7 @@
 		{
 			"Name": "ContentLib",
 			"Enabled": true,
-			"SemVersion": "^1.6.0"
+			"SemVersion": "^1.7.0"
 		}
 	]
 }

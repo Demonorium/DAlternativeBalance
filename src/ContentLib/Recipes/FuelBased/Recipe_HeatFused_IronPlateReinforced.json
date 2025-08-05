@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Heate-Fused Reinforced Iron Plate",
+    "Ingredients": [
+        {
+            "Item": "Desc_IronPlate",
+            "Amount": 24
+        },
+        {
+            "Item": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_Fuel.Desc_Fuel_C",
+            "Amount": 1
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_IronPlateReinforced",
+            "Amount": 10 
+        }
+    ],
+    "ManufacturingDuration": 48,
+    "ProducedIn": [
+        "Build_FoundryMk1"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Heated Heavy Modular Frame",
+    "Ingredients": [
+        {
+            "Item": "Desc_ModularFrame",
+            "Amount": 8
+        },
+        {
+            "Item": "Desc_SteelPlateReinforced",
+            "Amount": 16
+        },
+        {
+            "Item": "Desc_LiquidFuel",
+            "Amount": 5000
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_ModularFrameHeavy",
+            "Amount": 3 
+        }
+    ],
+    "ManufacturingDuration": 48,
+    "ProducedIn": [
+        "Build_Blender"
+    ]
+}

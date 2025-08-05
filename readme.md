@@ -1,5 +1,6 @@
 ### Mod development
 Run release.py script to create .zip file with mod in /build directory.
+Run install_steam.py script to copy mod folder into steamapps/common/Satisfactory/FactoryGame/Mods.
 
 ### Motivation
 Some recipes are completely useless. Look at "Leached \<thing\>" recipes. There is so much ore on the map that sulfur is a much more valuable resource. Ionized Fuel and SAM recipes seem as unusable as ore processing. Ionized Fuel provides little amount of energy for a high price. There are also problems with the balance of nuclear technologies: there is no point in recycling waste into better fuel, because there is already enough uranium energy.
@@ -28,15 +29,20 @@ There are two variants of ore processing:
 1. 1200 ore per minute require 600 Nitrogen Gas and 100 Sulfuric Acid.
 2. 1200 ore per minute require 150 Nitric Acid.
 
-Chain of processing method forces Pioneer to build large ore processing factories.
+Chain of processing methods forces Pioneer to build large ore processing factories.
 
 ### Oil and Fuel Rebalance
 #### Rebalance
 Ionized Fuel energy output 5,000 -> 7,000
 
-Recipe now produces 50 fuel per 1 shard.
+Ionized Fuel recipe now produces 50 fuel per 1 shard.
 
 ![Ionized Fuel Rebalance](https://raw.githubusercontent.com/Demonorium/DAlternativeBalance/refs/heads/master/docs/oil_3.jpg)
+
+##### (Ver 1.1) Changes
+Turbo Blend Fuel recipe now consumes more coal and sulfur, but has reduced heavy oil production.
+
+![Turbo fuel Rebalance](https://raw.githubusercontent.com/Demonorium/DAlternativeBalance/refs/heads/master/docs/oil_4.jpg)
 
 #### Alternate recipes
 
@@ -46,9 +52,16 @@ Recipe now produces 50 fuel per 1 shard.
 
 ![Direct recipe for Ionized Fuel](https://raw.githubusercontent.com/Demonorium/DAlternativeBalance/refs/heads/master/docs/oil_2.jpg)
 
+##### (Ver 1.1) Alt. Recipes
+![Heated plate](https://raw.githubusercontent.com/Demonorium/DAlternativeBalance/refs/heads/master/docs/oil_5.jpg)
+
+![Heated modular frame](https://raw.githubusercontent.com/Demonorium/DAlternativeBalance/refs/heads/master/docs/oil_6.jpg)
+
+![Heated heavy modular frame](https://raw.githubusercontent.com/Demonorium/DAlternativeBalance/refs/heads/master/docs/oil_7.jpg)
 
 #### Calculations and gameplay
 Additional recipes for oil production are consumers of Silica. Additional Sulfur production is useful for effective steel/ore/fuel production.
+Now there new recipes to use your fuel after uranium energym age.
 
 ### SAM Rebalance
 #### Alternate recipes
@@ -70,6 +83,15 @@ Additional recipes for oil production are consumers of Silica. Additional Sulfur
 The main purpose of changes is to reduce cost of SAM, to make it more usable. Also there are reduction of copper dust consumption.
 
 ### Nuclear power Rebalance
+#### (Ver 1.1) Alternate recipes
+
+![Alt Ficsonium Fuel Rod](https://raw.githubusercontent.com/Demonorium/DAlternativeBalance/refs/heads/master/docs/nuclear_0.jpg)
+
+#### (Ver 1.1) Calculations and gameplay
 1. Uranium rod energy output 50%
 2. Plutonium rod energy output 150%
 3. Ficsonium rod energy output 300%
+
+The recipe of uranium fuel rods was changed to reduce its cost.
+
+![Alt Nuclear recipes rebalance 1](https://raw.githubusercontent.com/Demonorium/DAlternativeBalance/refs/heads/master/docs/nuclear_1.jpg)

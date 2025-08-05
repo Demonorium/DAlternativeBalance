@@ -13,12 +13,16 @@
         {
             "Item": "Desc_Ficsonium",
             "Amount": 2
+        },
+        {
+            "Item": "Desc_ElectromagneticControlRod",
+            "Amount": 4
         }
     ],
     "Products": [
         {
             "Item": "Desc_SingularityCell",
-            "Amount": 30
+            "Amount": 32
         }
     ],
     "ManufacturingDuration": 60,

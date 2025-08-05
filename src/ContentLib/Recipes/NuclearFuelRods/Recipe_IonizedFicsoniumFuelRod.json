@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Ionized Ficsonium Fuel Rod",
+    "Ingredients": [
+        {
+            "Item": "Desc_Ficsonium",
+            "Amount": 1
+        },
+        {
+            "Item": "Desc_FicsiteMesh",
+            "Amount": 40
+        },
+        {
+            "Item": "Desc_ElectromagneticControlRod",
+            "Amount": 4
+        },
+        {
+            "Item": "Desc_IonizedFuel",
+            "Amount": 20000
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_FicsoniumFuelRod",
+            "Amount": 2
+        },
+        {
+            "Item": "Desc_DarkEnergy",
+            "Amount": 37500
+        }
+    ],
+    "VariablePowerConsumptionFactor": 2000,
+    "ManufacturingDuration": 24,
+    "ProducedIn": [
+        "Build_QuantumEncoder"
+    ]
+}
